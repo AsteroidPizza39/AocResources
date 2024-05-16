@@ -30,7 +30,7 @@ string[] dirs = Directory.GetDirectories(aoc);
 if (dirs.Select(x => Path.GetFileName(x)).Contains("01002B00111A2000")) {
     Console.WriteLine("Merging AoC directories. . .");
     foreach (var dir in dirs.Where(x => Path.GetFileName(x).StartsWith("01002B00111A"))) {
-        DirectoryExt.Copy(dir + "\\romfs\\asset", ".\\romfs\\asset", true);
+        DirectoryExt.Copy(dir + "\\romfs", ".\\romfs", true);
     }
     aoc = ".\\romfs";
 }
