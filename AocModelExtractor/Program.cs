@@ -77,7 +77,7 @@ class Program
             await urls["cethleann-patch"]!.DownloadAndExtractAsync(".\\Cethleann", "Cethleann Patch");
         }
 
-        // Merge directories
+        // Merge directories [Recursive]
         string[] dirs = Directory.GetDirectories(aoc);
         if (dirs.Select(x => Path.GetFileName(x)).Contains("01002B00111A2000"))
         {
