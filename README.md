@@ -1,6 +1,7 @@
 # AocResources
 
 This repository contains a set of tools and resources to make extracting assets (models and sounds) from Age of Calamity much easier.
+This fork updates dependencies and aims to improve handling of loose files.
 
 ### Contents:
 
