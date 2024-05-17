@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "AocModelExtractor": {
+      "commandName": "Project",
+      "commandLineArgs": "D:\\Games\\Aoc\\romfs"
+    }
+  }
+}
